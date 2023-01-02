@@ -17,6 +17,7 @@ public class Main {
         System.out.println(sumOdds(arr));
         System.out.println("conflict");
         System.out.println("conflict2");
+        System.out.println("branch");
     }
 
 
