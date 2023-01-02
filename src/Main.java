@@ -10,7 +10,7 @@ public class Main {
         }
 
         System.out.println(getMin(arr));
-        System.out.println(sumEvens(arr));
+        System.out.println(countEvens(arr));
         System.out.println(getMin(arr));
         System.out.println(sumOdds(arr));
     }
@@ -20,7 +20,7 @@ public class Main {
         return arr[0];
     }
 
-    public static int sumEvens(int[] arr) {
+    public static int countEvens(int[] arr) {
         int counter = 0;
 
         for (var i : arr) {
