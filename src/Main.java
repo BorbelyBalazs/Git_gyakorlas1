@@ -38,4 +38,8 @@ public class Main {
     public static int sumOdds(int[] arr) {
         return Arrays.stream(arr).filter(a -> a % 2 == 0).sum();
     }
+
+    public static int countOdds(int[] arr){
+        return (int) Arrays.stream(arr).filter(a -> a%2 == 0).count();
+    }
 }
