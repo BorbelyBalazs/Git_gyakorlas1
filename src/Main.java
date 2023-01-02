@@ -9,7 +9,7 @@ public class Main {
        }
     }
 
-    public static int min(int[] arr){
-      return Arrays.stream(arr).min().getAsInt();
+    public static int max(int[] arr){
+      return Arrays.stream(arr).max().getAsInt();
     }
 }
