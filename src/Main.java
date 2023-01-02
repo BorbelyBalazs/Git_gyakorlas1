@@ -26,4 +26,8 @@ public class Main {
         }
         return counter;
     }
+
+    public static int max(int[] arr){
+      return Arrays.stream(arr).max().getAsInt();
+    }
 }
