@@ -15,6 +15,7 @@ public class Main {
         System.out.println(countOdds(arr));
         System.out.println(sumEvens(arr));
         System.out.println(sumOdds(arr));
+        System.out.println("conflict2");
     }
 
 
